@@ -28,7 +28,7 @@ export default () => {
   return userData ? (
     <div>
       <div>
-        {/* <Image
+        {/* <Imae
           src={userData?.avatar_url} // Provide a default image source
           alt="user image"
           width={70}
