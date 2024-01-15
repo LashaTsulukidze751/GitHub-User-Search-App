@@ -24,6 +24,7 @@ export default () => {
   };
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    console.log(e.target.value)
     setUserName(e.target.value);
   };
 

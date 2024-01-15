@@ -1,17 +1,14 @@
-"use client"
-import InputLabel from "./components/InputLabel";
-import Header from "./components/Header";
+'use client'
 import { RecoilRoot } from "recoil";
-import UserInformation from "./components/UserInformation";
-
-export default function Home() {
+import MainPage from "./MainPage";
+function Home() {
   return (
-    <div className="min-h-screen w-full bg-light-whitegrey px-6 py-8 pr-5">
+    <>
       <RecoilRoot>
-        <Header />
-        <InputLabel />
-        <UserInformation />
+        <MainPage/>
       </RecoilRoot>
-    </div>
+    </>
   );
 }
+
+export default Home;
