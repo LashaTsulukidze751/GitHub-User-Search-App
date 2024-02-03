@@ -8,13 +8,12 @@ export default () => {
   const [theme, setTheme] = useRecoilState(themState);
 
   const handleThemeChange = () => {
-    console.log(theme)
     setTheme(!theme);
   };
 
   return (
     <header className="flex h-[60px] w-full items-center justify-between">
-      <h1 className={`${!theme && 'text-white'} text-3xl font-bold`}>devfinder</h1>
+      <h1 className={`text-3xl font-bold`}>devfinder</h1>
       <div className="flex hover:text-light-blue" onClick={handleThemeChange}>
         <h2 className="relative right-4 text-sm font-bold tracking-wide">
           {theme ? "DARK" : "LIGHT"}

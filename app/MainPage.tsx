@@ -10,8 +10,8 @@ export default function MainPage() {
   return (
       <div
         className={`${
-          theme?' bg-dark-blue':'bg-light-whitegrey'
-        } min-h-screen w-full  px-6 py-8 pr-5`}
+          theme?' bg-dark-black text-white':'bg-light-whitegrey'
+        } min-h-screen w-full  px-6 py-8 pr-5 duration-500 ease-out`}
       >
         <Header />
         <InputLabel />
